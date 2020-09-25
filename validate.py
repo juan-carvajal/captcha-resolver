@@ -10,7 +10,7 @@ model = keras.models.load_model('model.h5')
 
 totalfiles = len(os.listdir('success'))
 good_guess=0
-num_tests=1500
+num_tests=500
 totalfiles=num_tests
 #for idx1, filename in enumerate(os.listdir('success')):
 for idx1 in range(num_tests):
